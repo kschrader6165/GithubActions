@@ -62,7 +62,7 @@ public class Multiplication
 	[TestMethod]
 	public void Multiply_Valid_Schrader()
 	{
-		Assert.AreEqual(7, Program.Multiply("2", "3"));
+		Assert.AreEqual(6, Program.Multiply("2", "3"));
 		Assert.AreEqual(20, Program.Multiply("4", "5"));
 		Assert.AreEqual(0, Program.Multiply("0", "9"));
 	}
